@@ -1,6 +1,6 @@
 package Abstract_Factory;
 
-import Abstract Factory.app.Application;
+import Abstract_Factory.app.Application;
 import Abstract_Factory.factories.GUIFactory;
 import Abstract_Factory.factories.MacOSFactory;
 import Abstract_Factory.factories.WindowsFactory;

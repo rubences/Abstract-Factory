@@ -1,9 +1,9 @@
-package refactoring_guru.abstract_factory.example;
+package Abstract_Factory;
 
-import refactoring_guru.abstract_factory.example.app.Application;
-import refactoring_guru.abstract_factory.example.factories.GUIFactory;
-import refactoring_guru.abstract_factory.example.factories.MacOSFactory;
-import refactoring_guru.abstract_factory.example.factories.WindowsFactory;
+import Abstract Factory.app.Application;
+import Abstract_Factory.factories.GUIFactory;
+import Abstract_Factory.factories.MacOSFactory;
+import Abstract_Factory.factories.WindowsFactory;
 
 /**
  * Demo class. Everything comes together here.

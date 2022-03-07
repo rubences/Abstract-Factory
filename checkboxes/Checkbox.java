@@ -1,4 +1,4 @@
-package refactoring_guru.abstract_factory.example.checkboxes;
+package Abstract_Factory.checkboxes;
 
 /**
  * Checkboxes is the second product family. It has the same variants as buttons.

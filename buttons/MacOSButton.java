@@ -1,4 +1,4 @@
-package refactoring_guru.abstract_factory.example.buttons;
+package Abstract_Factory.buttons;
 
 /**
  * All products families have the same varieties (MacOS/Windows).

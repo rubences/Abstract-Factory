@@ -1,3 +1,10 @@
+package Abstract_Factory;
+
+import Abstract Factory.app.Application;
+import Abstract_Factory.factories.GUIFactory;
+import Abstract_Factory.factories.MacOSFactory;
+import Abstract_Factory.factories.WindowsFactory;
+
 // La interfaz fábrica abstracta declara un grupo de métodos que
 // devuelven distintos productos abstractos. Estos productos se
 // denominan familia y están relacionados por un tema o concepto

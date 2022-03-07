@@ -1,9 +1,9 @@
-package refactoring_guru.abstract_factory.example.factories;
+package Abstract_Factory;
 
-import refactoring_guru.abstract_factory.example.buttons.Button;
-import refactoring_guru.abstract_factory.example.buttons.MacOSButton;
-import refactoring_guru.abstract_factory.example.checkboxes.Checkbox;
-import refactoring_guru.abstract_factory.example.checkboxes.MacOSCheckbox;
+import Abstract_Factory.buttons.Button;
+import Abstract_Factory.buttons.MacOSButton;
+import Abstract_Factory.checkboxes.Checkbox;
+import Abstract_Factory.checkboxes.MacOSCheckbox;
 
 /**
  * Each concrete factory extends basic factory and responsible for creating

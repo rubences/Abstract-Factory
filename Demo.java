@@ -4,6 +4,7 @@ import Abstract_Factory.app.Application;
 import Abstract_Factory.factories.GUIFactory;
 import Abstract_Factory.factories.MacOSFactory;
 import Abstract_Factory.factories.WindowsFactory;
+import Abstract_Factory.factories.LinuxFactory;
 
 /**
  * Demo class. Everything comes together here.
@@ -22,7 +23,10 @@ public class Demo {
         if (osName.contains("mac")) {
             factory = new MacOSFactory();
             app = new Application(factory);
-        } else {
+        }else if (osName.contains("Linux"))
+            factory = new LinuxFactory();
+            app = new Application(factory);
+        }else {
             factory = new WindowsFactory();
             app = new Application(factory);
         }

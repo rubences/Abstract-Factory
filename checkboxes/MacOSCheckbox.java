@@ -1,4 +1,4 @@
-package Abstract_Factory.checkboxes;
+package checkboxes;
 
 /**
  * All products families have the same varieties (MacOS/Windows).

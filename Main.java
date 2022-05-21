@@ -1,10 +1,8 @@
-package Abstract_Factory;
-
-import Abstract_Factory.app.Application;
-import Abstract_Factory.factories.GUIFactory;
-import Abstract_Factory.factories.MacOSFactory;
-import Abstract_Factory.factories.WindowsFactory;
-import Abstract_Factory.factories.LinuxFactory;
+import app.Application;
+import factories.GUIFactory;
+import factories.MacOSFactory;
+import factories.WindowsFactory;
+import factories.LinuxFactory;
 
 /**
  * Demo class. Everything comes together here.

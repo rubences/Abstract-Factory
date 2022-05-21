@@ -1,5 +1,4 @@
-package Abstract_Factory.buttons;
-
+package buttons;
 /**
  * All products families have the same varieties (MacOS/Windows).
  *

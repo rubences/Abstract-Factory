@@ -1,11 +1,11 @@
-package Abstract_Factory.factories;
+package factories;
 
-import Abstract_Factory.buttons.Button;
-import Abstract_Factory.buttons.WindowsButton;
-import Abstract_Factory.buttons.LinuxButton;
-import Abstract_Factory.checkboxes.Checkbox;
-import Abstract_Factory.checkboxes.WindowsCheckbox;
-import Abstract_Factory.checkboxes.LinuxCheckbox;
+import buttons.Button;
+import buttons.WindowsButton;
+import buttons.LinuxButton;
+import checkboxes.Checkbox;
+import checkboxes.WindowsCheckbox;
+import checkboxes.LinuxCheckbox;
 
 /**
  * Each concrete factory extends basic factory and responsible for creating

@@ -1,8 +1,6 @@
-package Abstract_Factory.app;
-
-import Abstract_Factory.buttons.Button;
-import Abstract_Factory.checkboxes.Checkbox;
-import Abstract_Factory.factories.GUIFactory;
+import buttons.Button;
+import checkboxes.Checkbox;
+import factories.GUIFactory;
 
 /**
  * Factory users don't care which concrete factory they use since they work with

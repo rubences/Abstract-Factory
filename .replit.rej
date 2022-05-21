@@ -1,0 +1,7 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 1
+- compile = "javac -classpath .:target/dependency/ -d . $(find . -type f -name '*.java')"
+--- 1 -----
++ compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"

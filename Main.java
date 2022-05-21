@@ -9,7 +9,7 @@ import Abstract_Factory.factories.LinuxFactory;
 /**
  * Demo class. Everything comes together here.
  */
-public class Demo {
+public class Main {
 
     /**
      * Application picks the factory type and creates it in run time (usually at
